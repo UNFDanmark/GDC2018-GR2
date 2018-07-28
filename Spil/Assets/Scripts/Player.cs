@@ -36,4 +36,5 @@ public class Player : MonoBehaviour {
         player.velocity = (Vector3.up * player.velocity.y) + (transform.forward * speed);
       
     }
+    
 }
