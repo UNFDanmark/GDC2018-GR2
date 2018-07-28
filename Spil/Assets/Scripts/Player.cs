@@ -1,15 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 
     public float speed_player = 10f;
     public float rotationSpeed_player = 10f;
+    public float vomitMeter = 100f;
     public int health_player = 100;
     public int exp_player = 0;
     public int lvl_player = 1;
     public Rigidbody player;
+    public GameObject Vomit;
+    public Text vomitText;
 
 
     public float health_regen_sek_player = 1;
@@ -24,6 +28,13 @@ public class Player : MonoBehaviour {
 	void Update () {
 
         transform.Rotate(0, rotationSpeed_player * Input.GetAxis("Horizontal") * Time.deltaTime, 0);
+
+        if (Input.GetKey(KeyCode.Space) && vomitMeter > 0)
+        {
+            Shoot();
+        }
+
+
     }
 
     private void FixedUpdate()
@@ -35,5 +46,16 @@ public class Player : MonoBehaviour {
     {
         player.velocity = (Vector3.up * player.velocity.y) + (transform.forward * speed);
       
+    }
+
+    public void Shoot()
+    {
+        GameObject newBullet = Instantiate(Vomit);
+        newBullet.transform.position = transform.position + new Vector3(0, 0.75f, 0);
+        newBullet.transform.rotation = transform.rotation;
+        vomitMeter = vomitMeter - 0.1f;
+        vomitText.text = "Vomit " + vomitMeter;
+
+
     }
 }
