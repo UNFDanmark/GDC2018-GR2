@@ -41,7 +41,7 @@ public class Vomit : MonoBehaviour {
 
         foreach (Collider nearbyCollider in nearbyColliders)
         {
-            if (nearbyCollider.CompareTag("Cage"))
+            if (nearbyCollider.CompareTag("zombie"))
             {
                 PushObject(nearbyCollider.gameObject);
             }
