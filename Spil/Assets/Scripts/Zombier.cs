@@ -9,11 +9,15 @@ public class Zombier : MonoBehaviour
     public Player player;
     public Vector3 direction_zombie;
     public Rigidbody zombiebody;
+    public int zombieHealth = 10;
+    public ZombieSpawn zombieSpawn;
+
  
     // Use this for initialization
     void Start()
     {
         player = GameObject.FindObjectOfType<Player>();
+        zombieSpawn = GameObject.FindObjectOfType<ZombieSpawn>();
     }
 
     // Update is called once per frame
@@ -31,6 +35,19 @@ public class Zombier : MonoBehaviour
         zombiebody.velocity = a * speed_zombie;
 
 
+    }
+
+    void OnTriggerEnter(Collider trigger)
+    {
+        if (trigger.CompareTag("Vomit") && zombieHealth > 0)
+        {
+            zombieHealth--;
+        } else
+        {
+            Destroy(gameObject);
+            zombieSpawn.DestroyZombie();
+            
+        }
     }
 
 

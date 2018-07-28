@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ZombieSpawn : MonoBehaviour {
 
@@ -11,7 +12,7 @@ public class ZombieSpawn : MonoBehaviour {
     public float zombiedistance = 10;
     public int level_1 = 0;
     public int i;
-
+    public Text levelText;
 
 	// Use this for initialization
 	void Start () {
@@ -24,7 +25,8 @@ public class ZombieSpawn : MonoBehaviour {
         if (antal_zombie == 0)
         {
             level_1++;
-       
+            levelText.text = "Level: " + level_1;
+
             for (int i = 0; i < level_1 * 5;)
             {
 
@@ -38,8 +40,8 @@ public class ZombieSpawn : MonoBehaviour {
 
             public bool Spawn()
         {
-            float x = Random.Range(-100, 100);
-            float z = Random.Range(-100, 100);
+            float x = Random.Range(-99, 99);
+            float z = Random.Range(-99, 99);
 
             float x1 = player.position.x;
             float z1 = player.position.z;
@@ -60,7 +62,13 @@ public class ZombieSpawn : MonoBehaviour {
 
 
         }
+        
+        
 	}
+            public void DestroyZombie()
+                {
+                    antal_zombie--;
+                }
 
     }
 

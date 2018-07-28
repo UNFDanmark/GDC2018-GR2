@@ -14,14 +14,15 @@ public class Player : MonoBehaviour {
     public Rigidbody player;
     public GameObject Vomit;
     public Text vomitText;
-
+    public float timeOfLastRegen;
+    
 
     public float health_regen_sek_player = 1;
-    public int vomit_player_regen_sek = 1;
+    public float vomit_player_regen_sek = 1f;
 
 	// Use this for initialization
 	void Start () {
-
+        
 	}
 	
 	// Update is called once per frame
@@ -32,8 +33,12 @@ public class Player : MonoBehaviour {
         if (Input.GetKey(KeyCode.Space) && vomitMeter > 0)
         {
             Shoot();
+        } else if(Time.time - timeOfLastRegen >= vomit_player_regen_sek && vomitMeter <= 99)
+        {
+            vomitMeter++;
+            timeOfLastRegen = Time.time;
+            vomitText.text = "Vomit: " + Mathf.Round(vomitMeter);
         }
-
 
     }
 
@@ -54,7 +59,7 @@ public class Player : MonoBehaviour {
         newBullet.transform.position = transform.position + new Vector3(0, 0.75f, 0);
         newBullet.transform.rotation = transform.rotation;
         vomitMeter = vomitMeter - 0.1f;
-        vomitText.text = "Vomit " + vomitMeter;
+        vomitText.text = "Vomit: " + Mathf.Round(vomitMeter);
 
 
     }
