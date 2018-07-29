@@ -11,13 +11,19 @@ public class Zombier : MonoBehaviour
     public Rigidbody zombiebody;
     public int zombieHealth = 10;
     public ZombieSpawn zombieSpawn;
+    public float timeOfLastDestroy;
+    public int skade = 5;
+    public int slaghastighed = 2;
+    public float lastHit;
+   
 
- 
+
     // Use this for initialization
     void Start()
     {
         player = GameObject.FindObjectOfType<Player>();
         zombieSpawn = GameObject.FindObjectOfType<ZombieSpawn>();
+        
     }
 
     // Update is called once per frame
@@ -45,10 +51,23 @@ public class Zombier : MonoBehaviour
         } else
         {
             Destroy(gameObject);
-            zombieSpawn.DestroyZombie();
-            
+
+            if(Time.time - timeOfLastDestroy >= 1)
+                zombieSpawn.DestroyZombie();
+            timeOfLastDestroy = Time.time;
         }
     }
+    void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && Time.time - lastHit >= slaghastighed)
+        {
+            
+            player.PlayerDamage(skade);
+            lastHit = Time.time;
+        }
+
+    }
+   
 
 
 }

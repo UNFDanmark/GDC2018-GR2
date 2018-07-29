@@ -13,9 +13,10 @@ public class ZombieSpawn : MonoBehaviour {
     public int level_1 = 0;
     public int i;
     public Text levelText;
+    public Text zombieText;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         
 		
 	}
@@ -33,6 +34,7 @@ public class ZombieSpawn : MonoBehaviour {
                 if (Spawn())
                 {
                     i++;
+                    zombieText.text = "Zombier: " + antal_zombie;
                 }
             }
             }
@@ -40,8 +42,8 @@ public class ZombieSpawn : MonoBehaviour {
 
             public bool Spawn()
         {
-            float x = Random.Range(-99, 99);
-            float z = Random.Range(-99, 99);
+            float x = Random.Range(-90, 90);
+            float z = Random.Range(-90, 90);
 
             float x1 = player.position.x;
             float z1 = player.position.z;
@@ -50,7 +52,7 @@ public class ZombieSpawn : MonoBehaviour {
             if (regnestykke > zombiedistance)
             {
 
-                Vector3 position = new Vector3(x, 2, z);
+                Vector3 position = new Vector3(x, 0.5f, z);
                 Instantiate(zombie, position, Quaternion.identity);
                 antal_zombie++;
             return true;
@@ -68,7 +70,8 @@ public class ZombieSpawn : MonoBehaviour {
             public void DestroyZombie()
                 {
                     antal_zombie--;
-                }
+                    zombieText.text = "Zombier: " + antal_zombie;
+    }
 
     }
 

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - zombie
+  - Vomit
   layers:
   - Default
   - TransparentFX

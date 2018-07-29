@@ -15,6 +15,7 @@ public class Player : MonoBehaviour {
     public GameObject Vomit;
     public Text vomitText;
     public float timeOfLastRegen;
+    public Text healthText;
     
 
     public float health_regen_sek_player = 1;
@@ -62,5 +63,12 @@ public class Player : MonoBehaviour {
         vomitText.text = "Vomit: " + Mathf.Round(vomitMeter);
 
 
+    }
+    
+        
+    public void PlayerDamage(int skade)
+    {
+        health_player = health_player - skade;
+        healthText.text = "Health: " + health_player;
     }
 }
