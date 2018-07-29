@@ -12,11 +12,17 @@ public class Player : MonoBehaviour {
     public int exp_player = 0;
     public int lvl_player = 1;
     public Rigidbody player;
-    public GameObject Vomit;
+    public Text VomitRange;
+
+    public GameObject  Vomit;
+    public Vomit Vmit;
     public Text vomitText;
     public float timeOfLastRegen;
     public Text healthText;
-    
+    public float skifteTid = 0.2f;
+    public float sidstSkiftet;
+    public float range;
+
 
     public float health_regen_sek_player = 1;
     public float vomit_player_regen_sek = 1f;
@@ -40,7 +46,11 @@ public class Player : MonoBehaviour {
             timeOfLastRegen = Time.time;
             vomitText.text = "Vomit: " + Mathf.Round(vomitMeter);
         }
-
+        if (Input.GetKeyDown(KeyCode.E) )
+        {
+           range = Vmit.UpdateRange();
+           VomitRange.text = "Range: \n" + range *2 ;
+        }
     }
 
     private void FixedUpdate()

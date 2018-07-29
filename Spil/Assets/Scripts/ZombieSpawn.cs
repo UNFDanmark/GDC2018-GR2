@@ -14,7 +14,8 @@ public class ZombieSpawn : MonoBehaviour {
     public int i;
     public Text levelText;
     public Text zombieText;
-
+    public int mapSize = 48;
+    
     // Use this for initialization
     void Start () {
         
@@ -42,8 +43,8 @@ public class ZombieSpawn : MonoBehaviour {
 
             public bool Spawn()
         {
-            float x = Random.Range(-90, 90);
-            float z = Random.Range(-90, 90);
+            float x = Random.Range(-mapSize, mapSize);
+            float z = Random.Range(-mapSize, mapSize);
 
             float x1 = player.position.x;
             float z1 = player.position.z;
