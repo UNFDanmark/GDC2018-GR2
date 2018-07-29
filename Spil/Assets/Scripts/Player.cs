@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
@@ -22,6 +23,10 @@ public class Player : MonoBehaviour {
     public float skifteTid = 0.2f;
     public float sidstSkiftet;
     public float range;
+    public float timeOfLastRegenHealth;
+    public GameObject Level_n;
+    
+
 
 
     public float health_regen_sek_player = 1;
@@ -45,12 +50,22 @@ public class Player : MonoBehaviour {
             vomitMeter++;
             timeOfLastRegen = Time.time;
             vomitText.text = "Vomit: " + Mathf.Round(vomitMeter);
+           
         }
-        if (Input.GetKeyDown(KeyCode.E) )
+        if (health_player <= 99 && health_regen_sek_player <= Time.time - timeOfLastRegenHealth)
+        {
+            health_player++;
+            timeOfLastRegenHealth = Time.time;
+            healthText.text = "Health: " + health_player;
+                }
+
+        
+
+      /*  if (Input.GetKeyDown(KeyCode.E) )
         {
            range = Vmit.UpdateRange();
            VomitRange.text = "Range: \n" + range *2 ;
-        }
+        } */
     }
 
     private void FixedUpdate()
@@ -78,7 +93,15 @@ public class Player : MonoBehaviour {
         
     public void PlayerDamage(int skade)
     {
-        health_player = health_player - skade;
-        healthText.text = "Health: " + health_player;
+        if (health_player > 0)
+        {
+            health_player = health_player - skade;
+            healthText.text = "Health: " + health_player;
+        } else {
+          
+            DontDestroyOnLoad(Level_n);
+            SceneManager.LoadScene("DeathScene");
+        }
+
     }
 }

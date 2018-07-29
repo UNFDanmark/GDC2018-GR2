@@ -11,11 +11,11 @@ public class Vomit : MonoBehaviour {
     public float explosionRadius = 5;
     public Rigidbody myRigidbody;
     public Text vomitRange;
-    public 
+    
 
 
    
-    public Canvas vomitRangeText;
+    //public Canvas vomitRangeText;
 
     void Awake()
     {
@@ -27,7 +27,7 @@ public class Vomit : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        GameObject.FindWithTag("Player");
+        //GameObject.FindWithTag("Player");
         myRigidbody.velocity = transform.forward * moveSpeed + transform.up * moveUpSpeed;
         Destroy(gameObject, lifeTime);
     }
@@ -69,7 +69,7 @@ public class Vomit : MonoBehaviour {
         hitRigidbody.AddForce(explosionDirection * explosionPower, ForceMode.Impulse);
     }
 
-    public float UpdateRange() {
+    /*public float UpdateRange() {
         if (moveSpeed >= 5f)
         {
             moveSpeed = 0.5f;
@@ -85,7 +85,7 @@ public class Vomit : MonoBehaviour {
 
 
         myRigidbody.velocity = transform.forward * moveSpeed + transform.up * moveUpSpeed;
-
+        
        
-    }
+    }*/
 }
