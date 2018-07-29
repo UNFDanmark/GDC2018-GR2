@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 65417655848845478}
   - component: {fileID: 54145920310390624}
   - component: {fileID: 114314920785573702}
+  - component: {fileID: 65946379972498134}
   m_Layer: 11
   m_Name: Zombie
   m_TagString: zombie
@@ -113,6 +114,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65946379972498134
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1284046890460360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114314920785573702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -128,3 +141,9 @@ MonoBehaviour:
   player: {fileID: 0}
   direction_zombie: {x: 0, y: 0, z: 0}
   zombiebody: {fileID: 54145920310390624}
+  zombieHealth: 0
+  zombieSpawn: {fileID: 0}
+  timeOfLastDestroy: 0
+  skade: 5
+  slaghastighed: 2
+  lastHit: 0
