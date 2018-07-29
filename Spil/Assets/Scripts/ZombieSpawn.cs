@@ -15,6 +15,7 @@ public class ZombieSpawn : MonoBehaviour {
     public Text levelText;
     public Text zombieText;
     public int mapSize = 48;
+    public LevelInfoScript gitGutLevel;
     
     // Use this for initialization
     void Start () {
@@ -28,7 +29,7 @@ public class ZombieSpawn : MonoBehaviour {
         {
             level_1++;
             levelText.text = "Level: " + level_1;
-
+            gitGutLevel.levelInfo = level_1;
             for (int i = 0; i < level_1 * 5;)
             {
 

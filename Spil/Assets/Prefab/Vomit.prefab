@@ -127,6 +127,8 @@ MonoBehaviour:
   moveSpeed: 5
   moveUpSpeed: 5
   lifeTime: 5
-  explosionPower: 2
-  explosionRadius: 5
+  explosionPower: 30
+  explosionRadius: 10
   myRigidbody: {fileID: 0}
+  vomitRange: {fileID: 0}
+  vomitRangeText: {fileID: 0}
