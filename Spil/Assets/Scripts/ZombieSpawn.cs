@@ -14,7 +14,7 @@ public class ZombieSpawn : MonoBehaviour {
     public int i;
     public Text levelText;
     public Text zombieText;
-    public int mapSize = 48;
+    public int mapSize = 38;
     public LevelInfoScript gitGutLevel;
     
     // Use this for initialization
