@@ -11,7 +11,8 @@ public class DeathSceneScript : MonoBehaviour {
     public LevelInfoScript Levelnr;
 	// Use this for initialization
 	void Start () {
-        
+         
+        Levelnr = GameObject.FindWithTag("LevelNummer").GetComponent<LevelInfoScript>();
         Level1Info.text = "Du nåede til Level: " + Levelnr.levelInfo;
 	}
 	

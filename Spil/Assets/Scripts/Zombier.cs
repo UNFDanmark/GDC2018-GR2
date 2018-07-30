@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Zombier : MonoBehaviour
 {
@@ -15,10 +16,17 @@ public class Zombier : MonoBehaviour
     public int skade = 5;
     public int slaghastighed = 2;
     public float lastHit;
-   
+    public NavMeshAgent myAgent;
+
 
 
     // Use this for initialization
+    void Awake()
+    {
+        myAgent = GetComponent<NavMeshAgent>();
+
+    }
+
     void Start()
     {
         player = GameObject.FindObjectOfType<Player>();
