@@ -82,7 +82,7 @@ public class Player : MonoBehaviour {
     public void Shoot()
     {
         GameObject newBullet = Instantiate(Vomit);
-        newBullet.transform.position = transform.position + new Vector3(0, 0.75f, 0);
+        newBullet.transform.position = transform.position + new Vector3(0, -0.75f, 0.25f);
         newBullet.transform.rotation = transform.rotation;
         vomitMeter = vomitMeter - 0.1f;
         vomitText.text = "Vomit: " + Mathf.Round(vomitMeter);

@@ -14,7 +14,7 @@ public class ZombieSpawn : MonoBehaviour {
     public int i;
     public Text levelText;
     public Text zombieText;
-    public int mapSize = 48;
+    public int mapSize = 38;
     public LevelInfoScript gitGutLevel;
     
     // Use this for initialization
@@ -54,7 +54,7 @@ public class ZombieSpawn : MonoBehaviour {
             if (regnestykke > zombiedistance)
             {
 
-                Vector3 position = new Vector3(x, 0.5f, z);
+                Vector3 position = new Vector3(x, 1f, z);
                 Instantiate(zombie, position, Quaternion.identity);
                 antal_zombie++;
             return true;

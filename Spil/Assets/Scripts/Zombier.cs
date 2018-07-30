@@ -37,9 +37,10 @@ public class Zombier : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        direction_zombie = player.transform.position - transform.position;
-        direction_zombie.Normalize();
-        Move_Z(direction_zombie);
+        //direction_zombie = player.transform.position - transform.position;
+        //direction_zombie.Normalize();
+        //Move_Z(direction_zombie);
+        myAgent.SetDestination(player.transform.position);
     }
 
     public void Move_Z(Vector3 a) {
