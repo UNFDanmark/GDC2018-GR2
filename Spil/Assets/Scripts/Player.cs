@@ -70,12 +70,21 @@ public class Player : MonoBehaviour {
 
     private void FixedUpdate()
     {
+     
         Move(speed_player * Input.GetAxis("Vertical"));
     }
 
     public void Move(float speed)
     {
+        if (speed < 0)
+        {
+            player.velocity = (Vector3.up * player.velocity.y) + (transform.forward * (speed/2));
+        } else
+        {
         player.velocity = (Vector3.up * player.velocity.y) + (transform.forward * speed);
+
+        }
+        
       
     }
 

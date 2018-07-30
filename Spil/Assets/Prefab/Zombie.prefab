@@ -142,13 +142,14 @@ MonoBehaviour:
   player: {fileID: 0}
   direction_zombie: {x: 0, y: 0, z: 0}
   zombiebody: {fileID: 54145920310390624}
-  zombieHealth: 0
+  zombieHealth: 500
   zombieSpawn: {fileID: 0}
   timeOfLastDestroy: 0
   skade: 5
   slaghastighed: 2
   lastHit: 0
   myAgent: {fileID: 0}
+  kureret: {fileID: 1420573468224824, guid: e3e9249467a4e114bb4229019c880993, type: 2}
 --- !u!195 &195886970718192560
 NavMeshAgent:
   m_ObjectHideFlags: 1
