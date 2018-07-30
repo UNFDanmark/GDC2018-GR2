@@ -79,10 +79,17 @@ public class Player : MonoBehaviour {
         if (speed < 0)
         {
             player.velocity = (Vector3.up * player.velocity.y) + (transform.forward * (speed/2));
+            gameObject.GetComponent<SoundController>().walkMethod();
         } else
         {
-        player.velocity = (Vector3.up * player.velocity.y) + (transform.forward * speed);
-
+            player.velocity = (Vector3.up * player.velocity.y) + (transform.forward * speed);
+            if (speed > 0)
+            {
+                gameObject.GetComponent<SoundController>().walkMethod();
+            }
+            else {
+                gameObject.GetComponent<SoundController>().stopWalk();
+            }
         }
         
       
