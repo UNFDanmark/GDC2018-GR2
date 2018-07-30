@@ -18,6 +18,7 @@ public class Zombier : MonoBehaviour
     public float lastHit;
     public NavMeshAgent myAgent;
     public GameObject kureret;
+    public float spawnetTid;
 
 
 
@@ -60,12 +61,13 @@ public class Zombier : MonoBehaviour
             zombieHealth--;
         } else
         {
-            Hidkalde();
+            
 
 
             if (Time.time - timeOfLastDestroy >= 1)
             {
-                //Destroy(gameObject);
+                Hidkalde();
+                Destroy(gameObject);
                 zombieSpawn.DestroyZombie();
                 timeOfLastDestroy = Time.time;
 
@@ -89,7 +91,8 @@ public class Zombier : MonoBehaviour
     public void Hidkalde()
     {
         Instantiate(kureret, transform.position, transform.rotation);
-        print("prøver at hidkalde");
+        
+
     }
 
 

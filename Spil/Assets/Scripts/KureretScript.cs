@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class KureretScript : MonoBehaviour {
     public float spawnetTid;
-    public float livsTid;
+    public float livsTid = 100;
+    public bool spawnTidIkkeSat = true;
 
 
 	// Use this for initialization
 	void Start () {
-        spawnetTid = Time.time;
+        
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(Time.time - spawnetTid > livsTid)
-        {
-            Destroy(gameObject);
-        }
+        
+        
 	}
+
+    
 }
