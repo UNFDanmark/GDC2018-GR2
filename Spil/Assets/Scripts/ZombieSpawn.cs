@@ -54,7 +54,7 @@ public class ZombieSpawn : MonoBehaviour {
             if (regnestykke > zombiedistance)
             {
 
-                Vector3 position = new Vector3(x, 0.5f, z);
+                Vector3 position = new Vector3(x, 1f, z);
                 Instantiate(zombie, position, Quaternion.identity);
                 antal_zombie++;
             return true;
