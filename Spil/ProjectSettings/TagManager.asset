@@ -6,6 +6,7 @@ TagManager:
   tags:
   - zombie
   - Vomit
+  - LevelNummer
   layers:
   - Default
   - TransparentFX

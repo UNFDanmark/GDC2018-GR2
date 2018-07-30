@@ -6,10 +6,13 @@ using UnityEngine.UI;
 
 public class DeathSceneScript : MonoBehaviour {
     public Text Level1Info;
-    public LevelInfoScript Level_n_info;
+    
+    
+    public LevelInfoScript Levelnr;
 	// Use this for initialization
 	void Start () {
-        Level1Info.text = "Du nåede til Level: " + Level_n_info.levelInfo;
+        
+        Level1Info.text = "Du nåede til Level: " + Levelnr.levelInfo;
 	}
 	
 	// Update is called once per frame
