@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4413246585690494fb33b054748ffac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed_zombie: 5
+  speed_zombie: 6
   player: {fileID: 0}
   direction_zombie: {x: 0, y: 0, z: 0}
   zombiebody: {fileID: 54145920310390624}
@@ -163,6 +163,7 @@ MonoBehaviour:
   lastHit: 0
   myAgent: {fileID: 0}
   kureret: {fileID: 1420573468224824, guid: e3e9249467a4e114bb4229019c880993, type: 2}
+  spawnetTid: 0
 --- !u!195 &195886970718192560
 NavMeshAgent:
   m_ObjectHideFlags: 1

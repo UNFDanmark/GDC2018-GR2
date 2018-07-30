@@ -30,7 +30,7 @@ public class ZombieSpawn : MonoBehaviour {
             level_1++;
             levelText.text = "Level: " + level_1;
             gitGutLevel.levelInfo = level_1;
-            for (int i = 0; i < level_1 * 5;)
+            for (int i = -5; i < level_1 * 5;)
             {
 
                 if (Spawn())

@@ -1187,7 +1187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   antal_zombie: 0
-  intended_zombies: 5
+  intended_zombies: 10
   zombie: {fileID: 1284046890460360, guid: b664f5ec0e346cd48a7db907b1cf8a6d, type: 2}
   player: {fileID: 1833690956}
   zombiedistance: 15
@@ -2760,7 +2760,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 97c241892888a56499ae34c229d249c9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 27f7c0e8ea9eff74e964f559740acc7b, type: 2}
+      objectReference: {fileID: 2100000, guid: bfa08419f6bb17545896c70156640bc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97c241892888a56499ae34c229d249c9, type: 3}
   m_IsPrefabAsset: 0
@@ -5233,7 +5233,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 27f7c0e8ea9eff74e964f559740acc7b, type: 2}
+  - {fileID: 2100000, guid: bfa08419f6bb17545896c70156640bc8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
