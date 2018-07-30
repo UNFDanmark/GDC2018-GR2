@@ -17,6 +17,7 @@ public class Zombier : MonoBehaviour
     public int slaghastighed = 2;
     public float lastHit;
     public NavMeshAgent myAgent;
+    public GameObject kureret;
 
 
 
@@ -31,7 +32,7 @@ public class Zombier : MonoBehaviour
     {
         player = GameObject.FindObjectOfType<Player>();
         zombieSpawn = GameObject.FindObjectOfType<ZombieSpawn>();
-        
+
     }
 
     // Update is called once per frame
@@ -44,7 +45,7 @@ public class Zombier : MonoBehaviour
     }
 
     public void Move_Z(Vector3 a) {
-        
+
         //zombiebody.velocity = a + (enhed_vector * speed_zombie);
         //Mulighed for at gøre farten uafhængig af afstanden til player.
         zombiebody.velocity = a * speed_zombie;
@@ -59,24 +60,39 @@ public class Zombier : MonoBehaviour
             zombieHealth--;
         } else
         {
-            Destroy(gameObject);
+            Hidkalde();
 
-            if(Time.time - timeOfLastDestroy >= 1)
+
+            if (Time.time - timeOfLastDestroy >= 1)
+            {
+                //Destroy(gameObject);
                 zombieSpawn.DestroyZombie();
-            timeOfLastDestroy = Time.time;
+                timeOfLastDestroy = Time.time;
+
+            }
+
+
         }
     }
     void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player") && Time.time - lastHit >= slaghastighed)
         {
-            
+
             player.PlayerDamage(skade);
             lastHit = Time.time;
         }
 
+
     }
-   
+
+    public void Hidkalde()
+    {
+        Instantiate(kureret, transform.position, transform.rotation);
+        print("prøver at hidkalde");
+    }
+
+
 
 
 }
