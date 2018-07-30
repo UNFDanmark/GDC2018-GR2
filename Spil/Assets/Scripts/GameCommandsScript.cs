@@ -8,6 +8,8 @@ public class GameCommandsScript : MonoBehaviour
     public GameObject SpilText;
     public CameraFollow Camera;
     public GameObject StartKnap;
+    public AudioSource audiosource;
+    public AudioClip start;
     
     
     private void Awake()
@@ -36,6 +38,8 @@ public class GameCommandsScript : MonoBehaviour
         Time.timeScale = 1;
         Camera.KameraStart();
         StartKnap.SetActive(false);
+        audiosource.clip = start;
+        audiosource.Play();
         
     }
 
