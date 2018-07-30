@@ -1168,10 +1168,10 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 386802161}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6a144a70822743f409cdd6d5e591383f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: de4b0a0155dd13645bdde2320ebc7bc1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -6405,6 +6405,8 @@ MonoBehaviour:
   SpilText: {fileID: 883880374}
   Camera: {fileID: 1445686799}
   StartKnap: {fileID: 839777027}
+  audiosource: {fileID: 386802162}
+  start: {fileID: 8300000, guid: 6a144a70822743f409cdd6d5e591383f, type: 3}
 --- !u!1 &2043703268
 GameObject:
   m_ObjectHideFlags: 0
