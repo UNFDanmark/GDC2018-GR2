@@ -138,11 +138,12 @@ public class Player : MonoBehaviour {
         if (trigger.CompareTag("FuldVomit") )
         {
             vomitMeter = 100;
+            vomitText.text = "Vomit: " + Mathf.Round(vomitMeter);
         }
         if (trigger.CompareTag("FuldHealth"))
         {
             health_player = 100;
-
+            healthText.text = "Health: " + health_player;
         }
         if (trigger.CompareTag("ExtremeRotation"))
         {
@@ -150,6 +151,7 @@ public class Player : MonoBehaviour {
             PowerUp_activate = Time.time;
 
         }
+        trigger.GetComponentInParent<PowerUpScript>().Puff();
 
 
 

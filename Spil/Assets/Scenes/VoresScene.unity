@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43667546, g: 0.48427135, b: 0.5645225, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427147, b: 0.56452364, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -24834,6 +24834,8 @@ MonoBehaviour:
   lvl_player: 1
   player: {fileID: 1833690957}
   VomitRange: {fileID: 1849274819}
+  PowerUp_activate: 0
+  PowerUp_tid: 5
   Vomit: {fileID: 1970326206212072, guid: cc855e3591844954eb7ad6656412d283, type: 2}
   Vmit: {fileID: 114144814118485712, guid: cc855e3591844954eb7ad6656412d283, type: 2}
   vomitText: {fileID: 1734606876}
@@ -24944,14 +24946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walk: {fileID: 8300000, guid: c980ca70c31f48c41aed91ccd10a52a2, type: 3}
-  zombie:
-  - {fileID: 8300000, guid: f77f08897df7ce546a72dd917bc281ab, type: 3}
-  - {fileID: 8300000, guid: cdd6a4542fa808b44af343dcac768a22, type: 3}
-  - {fileID: 8300000, guid: 08eafdc4c6eec244a84ea20c262143e0, type: 3}
-  - {fileID: 8300000, guid: 010722a3d35903041ab68c84a469b674, type: 3}
-  - {fileID: 8300000, guid: cea2631da082b6e45ae589d9adbda2de, type: 3}
-  - {fileID: 8300000, guid: 945a72866e9a09c4d9b7cddd6f38970a, type: 3}
-  - {fileID: 8300000, guid: 0699f7397d7915e48af9613275ec2418, type: 3}
+  zombie: []
   audioSource: {fileID: 1833690959}
 --- !u!82 &1833690959
 AudioSource:

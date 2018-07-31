@@ -22,7 +22,8 @@ GameObject:
   - component: {fileID: 33320661827806122}
   - component: {fileID: 23137395713716834}
   - component: {fileID: 135124729423218590}
-  m_Layer: 0
+  - component: {fileID: 114486865438722160}
+  m_Layer: 13
   m_Name: FuldHealthSvamp
   m_TagString: FuldHealth
   m_Icon: {fileID: 0}
@@ -39,7 +40,7 @@ GameObject:
   - component: {fileID: 4535140773501590}
   - component: {fileID: 33713817876176220}
   - component: {fileID: 23230053907156684}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Fluesvamp_EXPORT_v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1092240541861036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.08, y: 0.5, z: 2.93}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4535140773501590}
@@ -67,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1495999260245434}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0.060766377, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0.5967}
   m_Children: []
   m_Father: {fileID: 4138584473542548}
@@ -79,7 +80,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1092240541861036}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -157,6 +158,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1495999260245434}
   m_Mesh: {fileID: 4300000, guid: 0c7eb5b29b2333c42ab295a19898df87, type: 3}
+--- !u!114 &114486865438722160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1092240541861036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02e6bef09c53834eb86fce6258734b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135124729423218590
 SphereCollider:
   m_ObjectHideFlags: 1

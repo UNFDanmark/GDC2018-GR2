@@ -11,13 +11,11 @@ public class PowerUpScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+       
 
-        void OnTriggerEnter(Collider trigger)
-        {
-        if (trigger.CompareTag("Player");
-
-        }
-           
-
+    }
+       public void Puff()
+    {
+        Destroy(gameObject);
     }
 }
