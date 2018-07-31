@@ -6518,6 +6518,7 @@ MonoBehaviour:
   StartKnap: {fileID: 839777027}
   audiosource: {fileID: 386802162}
   start: {fileID: 8300000, guid: 6a144a70822743f409cdd6d5e591383f, type: 3}
+  lvlUp: {fileID: 8300000, guid: a937a486c40944a48a37b74a2527279a, type: 3}
 --- !u!1 &2043703268
 GameObject:
   m_ObjectHideFlags: 0
