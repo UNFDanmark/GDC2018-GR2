@@ -10,6 +10,7 @@ public class GameCommandsScript : MonoBehaviour
     public GameObject StartKnap;
     public AudioSource audiosource;
     public AudioClip start;
+    public AudioClip lvlUp;
     
     
     private void Awake()
@@ -50,7 +51,10 @@ public class GameCommandsScript : MonoBehaviour
         Camera.KameraMenu();
         
     }
-
+    public void LevelUp() {
+        audiosource.clip = lvlUp; //sætter lyden i audioSource
+        audiosource.Play();
+    }
    
 }
 
