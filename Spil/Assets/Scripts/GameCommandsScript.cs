@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameCommandsScript : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class GameCommandsScript : MonoBehaviour
     public AudioSource audiosource;
     public AudioClip start;
     public AudioClip lvlUp;
+    public GameObject TutorialKnap;
     
     
     private void Awake()
@@ -55,6 +57,20 @@ public class GameCommandsScript : MonoBehaviour
         audiosource.clip = lvlUp; //sætter lyden i audioSource
         audiosource.Play();
     }
+    public void Tutorial()
+    { 
+        
+            SceneManager.LoadScene("TutMec");
+        
+
+    }
+    public void Quit()
+    {
+        Application.Quit();
+
+    }
+
+
    
 }
 

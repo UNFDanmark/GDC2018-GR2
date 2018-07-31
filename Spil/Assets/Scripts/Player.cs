@@ -29,7 +29,7 @@ public class Player : MonoBehaviour {
     public GameObject Level_n;
     public GameObject regnbue;
 
-
+   
 
     public float health_regen_sek_player = 1;
     public float vomit_player_regen_sek = 1f;
@@ -75,7 +75,7 @@ public class Player : MonoBehaviour {
 
         }
 
-        animator.Play("Walk");
+
 
         
 
@@ -125,7 +125,7 @@ public class Player : MonoBehaviour {
         
     public void PlayerDamage(int skade)
     {
-        if (health_player > 0)
+        if (health_player > 5)
         {
             health_player = health_player - skade;
             healthText.text = "Health: " + health_player;

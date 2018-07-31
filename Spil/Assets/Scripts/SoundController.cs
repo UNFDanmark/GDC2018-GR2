@@ -6,7 +6,7 @@ public class SoundController : MonoBehaviour {
     //lyd variabler
     public AudioClip walk;
     public AudioSource audioSource;//Vores audioSource
-    
+    public AudioSource zombiesource;
 
 
     public void walkMethod() //metode
