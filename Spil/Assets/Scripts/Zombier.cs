@@ -95,10 +95,6 @@ public class Zombier : MonoBehaviour
         
 
     }
-    public void zombieWalk() {
-
-    }
-
 
 
 
