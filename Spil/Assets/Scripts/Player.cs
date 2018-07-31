@@ -45,12 +45,14 @@ public class Player : MonoBehaviour {
         if (Input.GetKey(KeyCode.Space) && vomitMeter > 0)
         {
             Shoot();
+            gameObject.GetComponent<SoundVomit>().vomitMethod();
         } else if(Time.time - timeOfLastRegen >= vomit_player_regen_sek && vomitMeter <= 99)
         {
             vomitMeter++;
             timeOfLastRegen = Time.time;
             vomitText.text = "Vomit: " + Mathf.Round(vomitMeter);
-           
+            gameObject.GetComponent<SoundVomit>().stopVomit();
+
         }
         if (health_player <= 99 && health_regen_sek_player <= Time.time - timeOfLastRegenHealth)
         {
@@ -102,8 +104,6 @@ public class Player : MonoBehaviour {
         newBullet.transform.rotation = transform.rotation;
         vomitMeter = vomitMeter - 0.1f;
         vomitText.text = "Vomit: " + Mathf.Round(vomitMeter);
-
-
     }
     
         

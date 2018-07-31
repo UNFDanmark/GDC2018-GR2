@@ -28,6 +28,13 @@ public class ZombieSpawn : MonoBehaviour {
         if (antal_zombie == 0)
         {
             level_1++;
+
+
+            if (level_1 != 0) {
+                gameObject.GetComponent<GameCommandsScript>().LevelUp();
+            }
+
+
             levelText.text = "Level: " + level_1;
             gitGutLevel.levelInfo = level_1;
             for (int i = -5; i < level_1 * 5;)
@@ -39,8 +46,8 @@ public class ZombieSpawn : MonoBehaviour {
                     zombieText.text = "Zombier: " + antal_zombie;
                 }
             }
-            }
         }
+    }
 
             public bool Spawn()
         {

@@ -2,25 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundController : MonoBehaviour {
-    //lyd variabler
-    public AudioClip walk;
+public class SoundVomit : MonoBehaviour {
+    public AudioClip vomit_start;
+    public AudioClip vomit;
     public AudioSource audioSource;//Vores audioSource
 
 
-    public void walkMethod() //metode
+    public void vomitMethod()
     {
-        audioSource.clip = walk; //sætter lyden i audioSource
+        audioSource.clip = vomit;
         if (!audioSource.isPlaying) //tjekker om lyden allerede afspilles
         {
             audioSource.Play(); //afspiller lyden
         }
     }
-    public void stopWalk() {
+    public void stopVomit() {
         audioSource.Stop();
     }
-
-    
     // Use this for initialization
     void Start () {
 		
