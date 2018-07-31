@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 65946379972498134}
   - component: {fileID: 195886970718192560}
   - component: {fileID: 65140819182129070}
+  - component: {fileID: 114589530356981812}
   m_Layer: 11
   m_Name: Zombie
   m_TagString: zombie
@@ -237,6 +238,26 @@ MonoBehaviour:
   myAgent: {fileID: 0}
   kureret: {fileID: 1420573468224824, guid: e3e9249467a4e114bb4229019c880993, type: 2}
   spawnetTid: 0
+--- !u!114 &114589530356981812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1284046890460360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0136391cd0797f488b12474f2af5f9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombie:
+  - {fileID: 8300000, guid: f77f08897df7ce546a72dd917bc281ab, type: 3}
+  - {fileID: 8300000, guid: cdd6a4542fa808b44af343dcac768a22, type: 3}
+  - {fileID: 8300000, guid: 08eafdc4c6eec244a84ea20c262143e0, type: 3}
+  - {fileID: 8300000, guid: 010722a3d35903041ab68c84a469b674, type: 3}
+  - {fileID: 8300000, guid: cea2631da082b6e45ae589d9adbda2de, type: 3}
+  - {fileID: 8300000, guid: 945a72866e9a09c4d9b7cddd6f38970a, type: 3}
+  - {fileID: 8300000, guid: 0699f7397d7915e48af9613275ec2418, type: 3}
+  interval: 3
 --- !u!195 &195886970718192560
 NavMeshAgent:
   m_ObjectHideFlags: 1
