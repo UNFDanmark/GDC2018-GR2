@@ -29,7 +29,7 @@ public class Player : MonoBehaviour {
     public GameObject Level_n;
     public GameObject regnbue;
 
-
+   
 
     public float health_regen_sek_player = 1;
     public float vomit_player_regen_sek = 1f;
