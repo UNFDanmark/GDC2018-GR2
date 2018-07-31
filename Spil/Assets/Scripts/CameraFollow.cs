@@ -48,7 +48,7 @@ public class CameraFollow : MonoBehaviour {
 
     public void KameraMenu()
     {
-        transform.position = new Vector3(0f, 47.4f, -56.6f);
+        transform.position = new Vector3(0f, 32.96f, -39.11f);
         
     }
     public void KameraStart()
