@@ -151,10 +151,11 @@ public class Player : MonoBehaviour {
             PowerUp_activate = Time.time;
 
         }
+       
         trigger.GetComponentInParent<PowerUpScript>().Puff();
 
 
 
-        }
+    }
     }
 

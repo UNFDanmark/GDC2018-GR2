@@ -2,19 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PowerUpScript : MonoBehaviour {
+public class PowerUpScript : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-       
+    // Use this for initialization
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
 
     }
-       public void Puff()
+    public void Puff()
     {
         Destroy(gameObject);
     }

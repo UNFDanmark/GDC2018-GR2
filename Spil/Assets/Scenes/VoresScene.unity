@@ -9429,6 +9429,12 @@ MonoBehaviour:
   tidVed0Z: 0
   pausetid: 5
   spawnstuf: 1
+  FullHealth: {fileID: 1092240541861036, guid: dbee5d89b56c9e549a60d415e12dde53, type: 2}
+  FullVomit: {fileID: 1600007822271982, guid: 1f2916cb2e0c3284cb249f60147ccb2f, type: 2}
+  ExtremeRotatation: {fileID: 1450105169827044, guid: d9e9e67b00c96e4488736c60dc7891fd,
+    type: 2}
+  FullH: {x: 0, y: 0, z: 0}
+  FullV: {x: 0, y: 0, z: 0}
 --- !u!114 &436491727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24946,7 +24952,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walk: {fileID: 8300000, guid: c980ca70c31f48c41aed91ccd10a52a2, type: 3}
-  zombie: []
   audioSource: {fileID: 1833690959}
 --- !u!82 &1833690959
 AudioSource:
