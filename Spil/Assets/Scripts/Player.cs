@@ -34,9 +34,11 @@ public class Player : MonoBehaviour {
     public float health_regen_sek_player = 1;
     public float vomit_player_regen_sek = 1f;
 
+    private Animator animator;
+
 	// Use this for initialization
 	void Start () {
-        
+        animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -72,6 +74,8 @@ public class Player : MonoBehaviour {
             rotationSpeed_player = 200;
 
         }
+
+        animator.Play("Walk");
 
         
 
@@ -151,10 +155,11 @@ public class Player : MonoBehaviour {
             PowerUp_activate = Time.time;
 
         }
+       
         trigger.GetComponentInParent<PowerUpScript>().Puff();
 
 
 
-        }
+    }
     }
 

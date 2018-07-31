@@ -19,21 +19,30 @@ public class ZombieSpawn : MonoBehaviour {
     public float tidVed0Z;
     public float pausetid = 0;
     public bool spawnstuf = true;
-    
+    public GameObject FullHealth;
+    public GameObject FullVomit;
+    public GameObject ExtremeRotatation;
+    public Vector3 FullH = new Vector3(13, 4, 0);
+    public Vector3 FullV = new Vector3(-13, 4, 0);
+
+
     // Use this for initialization
-    void Start () {
-        
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    void Start() {
+
+
+    }
+
+    // Update is called once per frame
+    void Update() {
         if (antal_zombie == 0)
         {
-           if (spawnstuf)
+            if (spawnstuf)
             {
                 tidVed0Z = Time.time;
                 spawnstuf = false;
+                Instantiate(FullHealth, new Vector3(13, 0.5f, 0), Quaternion.identity);
+                Instantiate(FullVomit, new Vector3(-13, 0.5f, 0), Quaternion.identity);
+                
             }
 
             if (Time.time - tidVed0Z > pausetid)
@@ -50,32 +59,32 @@ public class ZombieSpawn : MonoBehaviour {
         }
     }
 
-            public bool Spawn()
+    public bool Spawn()
+    {
+        float x = Random.Range(-mapSize, mapSize);
+        float z = Random.Range(-mapSize, mapSize);
+
+        float x1 = player.position.x;
+        float z1 = player.position.z;
+        float regnestykke = Mathf.Sqrt(Mathf.Pow(x + x1, 2) + Mathf.Pow(z + z1, 2));
+
+        if (regnestykke > zombiedistance)
         {
-            float x = Random.Range(-mapSize, mapSize);
-            float z = Random.Range(-mapSize, mapSize);
 
-            float x1 = player.position.x;
-            float z1 = player.position.z;
-            float regnestykke = Mathf.Sqrt(Mathf.Pow(x + x1, 2) + Mathf.Pow(z + z1, 2));
-
-            if (regnestykke > zombiedistance)
-            {
-
-                Vector3 position = new Vector3(x, 1f, z);
-                Instantiate(zombie, position, Quaternion.identity);
-                antal_zombie++;
+            Vector3 position = new Vector3(x, 1f, z);
+            Instantiate(zombie, position, Quaternion.identity);
+            antal_zombie++;
             return true;
-            }
-            
-            else
+        }
+
+        else
         {
             return false;
 
-             }
-        
-        
-	}
+        }
+
+
+    }
     public bool SpawnFast()
     {
         float x = Random.Range(-mapSize, mapSize);
@@ -100,16 +109,18 @@ public class ZombieSpawn : MonoBehaviour {
 
         }
     }
-            public void DestroyZombie()
-                {
-                    antal_zombie--;
-                    zombieText.text = "Zombier: " + antal_zombie;
+    public void DestroyZombie()
+    {
+        antal_zombie--;
+        zombieText.text = "Zombier: " + antal_zombie;
     }
 
 
     public void LevelSpawn()
     {
         //gameObject.GetComponent<SoundLvlUp>().LevelUp();
+
+     
 
         for (int i = 0; i < level_1 * 5;)
         {
@@ -129,7 +140,20 @@ public class ZombieSpawn : MonoBehaviour {
                 zombieText.text = "Zombier: " + antal_zombie;
             }
         }
+        SpawnRot();
         spawnstuf = true;
+    }
+
+    public void SpawnRot(){
+        float x = Random.Range(-mapSize, mapSize);
+        float z = Random.Range(-mapSize, mapSize);
+
+        
+
+            Vector3 position = new Vector3(x, 0.5f, z);
+            Instantiate(ExtremeRotatation, position, Quaternion.identity);
+            
+        
     }
     }
 

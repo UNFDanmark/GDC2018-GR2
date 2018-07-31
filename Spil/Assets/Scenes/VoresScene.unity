@@ -9429,6 +9429,12 @@ MonoBehaviour:
   tidVed0Z: 0
   pausetid: 5
   spawnstuf: 1
+  FullHealth: {fileID: 1092240541861036, guid: dbee5d89b56c9e549a60d415e12dde53, type: 2}
+  FullVomit: {fileID: 1600007822271982, guid: 1f2916cb2e0c3284cb249f60147ccb2f, type: 2}
+  ExtremeRotatation: {fileID: 1450105169827044, guid: d9e9e67b00c96e4488736c60dc7891fd,
+    type: 2}
+  FullH: {x: 0, y: 0, z: 0}
+  FullV: {x: 0, y: 0, z: 0}
 --- !u!114 &436491727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24808,6 +24814,7 @@ GameObject:
   - component: {fileID: 1833690958}
   - component: {fileID: 1833690961}
   - component: {fileID: 1833690960}
+  - component: {fileID: 1833690962}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -24946,7 +24953,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walk: {fileID: 8300000, guid: c980ca70c31f48c41aed91ccd10a52a2, type: 3}
-  zombie: []
   audioSource: {fileID: 1833690959}
 --- !u!82 &1833690959
 AudioSource:
@@ -25152,6 +25158,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &1833690962
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1833690951}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 62efcd04357395f48ac74b333f4b4ff0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1845794555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27,
