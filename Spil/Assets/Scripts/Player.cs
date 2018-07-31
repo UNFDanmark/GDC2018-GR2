@@ -25,7 +25,7 @@ public class Player : MonoBehaviour {
     public float range;
     public float timeOfLastRegenHealth;
     public GameObject Level_n;
-    
+    public GameObject regnbue;
 
 
 
@@ -45,6 +45,8 @@ public class Player : MonoBehaviour {
         if (Input.GetKey(KeyCode.Space) && vomitMeter > 0)
         {
             Shoot();
+
+            gameObject.GetComponentInChildren<ParticleSystem>().Play();  
             gameObject.GetComponent<SoundVomit>().vomitMethod();
         } else if(Time.time - timeOfLastRegen >= vomit_player_regen_sek && vomitMeter <= 99)
         {
@@ -52,7 +54,10 @@ public class Player : MonoBehaviour {
             timeOfLastRegen = Time.time;
             vomitText.text = "Vomit: " + Mathf.Round(vomitMeter);
             gameObject.GetComponent<SoundVomit>().stopVomit();
+         
 
+        } else {
+            gameObject.GetComponentInChildren<ParticleSystem>().Stop();
         }
         if (health_player <= 99 && health_regen_sek_player <= Time.time - timeOfLastRegenHealth)
         {
