@@ -14,7 +14,7 @@ public class Start3Script : MonoBehaviour {
 	void Update () {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("Start2");
+            SceneManager.LoadScene("Start4");
         }
     }
 }
