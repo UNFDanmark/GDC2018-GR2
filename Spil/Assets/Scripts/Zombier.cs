@@ -34,7 +34,7 @@ public class Zombier : MonoBehaviour
         player = GameObject.FindObjectOfType<Player>();
         zombieSpawn = GameObject.FindObjectOfType<ZombieSpawn>();
         speed_zombie = Random.Range(2, 3);
-        gameObject.GetComponent<SoundZombie>().zombiewalk();
+        
 
     }
 
