@@ -7,6 +7,7 @@ public class SoundController : MonoBehaviour {
     public AudioClip walk;
     public AudioClip[] zombie;
     public AudioSource audioSource;//Vores audioSource
+    
 
 
     public void walkMethod() //metode

@@ -125,4 +125,26 @@ public class Player : MonoBehaviour {
         }
 
     }
-}
+
+    void OnTriggerEnter(Collider trigger)
+    {
+        if (trigger.CompareTag("FuldVomit") )
+        {
+            vomitMeter = 100;
+        }
+        if (trigger.CompareTag("FuldHealth"))
+        {
+            health_player = 100;
+
+        }
+        if (trigger.CompareTag("ExtremeRotation"))
+        {
+            rotationSpeed_player = 1000;
+
+        }
+
+
+
+        }
+    }
+
