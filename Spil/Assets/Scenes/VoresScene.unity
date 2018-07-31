@@ -344,6 +344,14 @@ Prefab:
       propertyPath: m_Name
       value: Sten
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
   m_IsPrefabAsset: 0
@@ -367,8 +375,8 @@ GameObject:
   m_Name: Sten (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &31798503
 Transform:
@@ -5309,8 +5317,8 @@ GameObject:
   m_Name: Sten (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &62356151
 Transform:
@@ -7325,6 +7333,14 @@ Prefab:
       propertyPath: m_Name
       value: Sten
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
   m_IsPrefabAsset: 0
@@ -7651,8 +7667,8 @@ GameObject:
   m_Name: Sten (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &201616100
 Transform:
@@ -7780,6 +7796,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -8291,6 +8315,14 @@ Prefab:
       propertyPath: m_Name
       value: Sten
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
   m_IsPrefabAsset: 0
@@ -8314,8 +8346,8 @@ GameObject:
   m_Name: Sten (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &272039622
 Transform:
@@ -8780,6 +8812,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -9595,6 +9635,14 @@ Prefab:
       propertyPath: m_Name
       value: Sten
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
   m_IsPrefabAsset: 0
@@ -9661,6 +9709,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -9904,6 +9960,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -10274,6 +10338,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -11278,6 +11350,14 @@ Prefab:
       propertyPath: m_Name
       value: Sten
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
   m_IsPrefabAsset: 0
@@ -11872,6 +11952,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -12476,8 +12564,8 @@ GameObject:
   m_Name: Sten (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &569849522
 Transform:
@@ -12904,8 +12992,8 @@ GameObject:
   m_Name: Sten (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &613937274
 Transform:
@@ -14066,6 +14154,14 @@ Prefab:
       propertyPath: m_Name
       value: Sten
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
   m_IsPrefabAsset: 0
@@ -14467,8 +14563,8 @@ GameObject:
   m_Name: Sten (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &733398054
 Transform:
@@ -14554,8 +14650,8 @@ GameObject:
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &751416703
 Transform:
@@ -14921,8 +15017,8 @@ GameObject:
   m_Name: Sten (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &784236786
 Transform:
@@ -15497,8 +15593,8 @@ GameObject:
   m_Name: Sten (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &818206975
 Transform:
@@ -16143,6 +16239,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -17046,8 +17150,8 @@ GameObject:
   m_Name: Sten (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &920718073
 Transform:
@@ -17218,6 +17322,92 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 921034067}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &924613594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 924613598}
+  - component: {fileID: 924613597}
+  - component: {fileID: 924613596}
+  - component: {fileID: 924613595}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!65 &924613595
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 924613594}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &924613596
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 924613594}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 926aebf7f16f14d4981aee8bcd4f0716, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &924613597
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 924613594}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &924613598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 924613594}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.281545, y: -1.9526019, z: -4.568918}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1940887870}
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &926248262
 GameObject:
   m_ObjectHideFlags: 0
@@ -17479,6 +17669,14 @@ Prefab:
       propertyPath: m_Name
       value: Sten
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
   m_IsPrefabAsset: 0
@@ -17502,8 +17700,8 @@ GameObject:
   m_Name: Sten (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &942386929
 Transform:
@@ -17631,6 +17829,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -18336,8 +18542,8 @@ GameObject:
   m_Name: Sten (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1061869758
 Transform:
@@ -18843,6 +19049,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -19840,6 +20054,14 @@ Prefab:
       propertyPath: m_Name
       value: Sten
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
   m_IsPrefabAsset: 0
@@ -20235,6 +20457,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -21422,8 +21652,8 @@ GameObject:
   m_Name: Sten (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1315870246
 Transform:
@@ -21508,8 +21738,8 @@ GameObject:
   m_Name: Sten (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1326375118
 Transform:
@@ -22100,8 +22330,8 @@ GameObject:
   m_Name: Sten (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1363853513
 Transform:
@@ -22186,8 +22416,8 @@ GameObject:
   m_Name: Sten
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1372391033
 Transform:
@@ -23148,8 +23378,8 @@ GameObject:
   m_Name: Sten (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1421571917
 Transform:
@@ -23278,6 +23508,14 @@ Prefab:
       propertyPath: m_Name
       value: Sten
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
   m_IsPrefabAsset: 0
@@ -23301,8 +23539,8 @@ GameObject:
   m_Name: Sten (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1432465609
 Transform:
@@ -23473,7 +23711,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 99e90f325a15f3c4bad896c64a96ea74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.67
+      value: -7.3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99e90f325a15f3c4bad896c64a96ea74, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23481,7 +23719,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99e90f325a15f3c4bad896c64a96ea74, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.73
+      value: -10.9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 99e90f325a15f3c4bad896c64a96ea74, type: 3}
       propertyPath: m_LocalRotation.x
@@ -25013,6 +25251,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90.00001
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
   m_IsPrefabAsset: 0
@@ -25584,6 +25830,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -27539,6 +27793,14 @@ Prefab:
       propertyPath: m_Name
       value: Sten
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
   m_IsPrefabAsset: 0
@@ -27562,8 +27824,8 @@ GameObject:
   m_Name: Sten (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1762685598
 Transform:
@@ -28026,8 +28288,8 @@ GameObject:
   m_Name: Sten (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1795893121
 Transform:
@@ -28415,8 +28677,8 @@ GameObject:
   m_Name: Sten (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1824585297
 Transform:
@@ -30132,8 +30394,8 @@ GameObject:
   m_Name: Sten (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1900712881
 Transform:
@@ -30718,6 +30980,102 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1936405845}
   m_CullTransparentMesh: 0
+--- !u!1001 &1940887869
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 924613598}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.0484552
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9526019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.011082
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3891307
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9211826
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45.801003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 926aebf7f16f14d4981aee8bcd4f0716, type: 2}
+    - target: {fileID: 100004, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7776509ade87639459ba6e63f5519fe8, type: 3}
+  m_IsPrefabAsset: 0
+--- !u!4 &1940887870 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: 7776509ade87639459ba6e63f5519fe8,
+    type: 3}
+  m_PrefabInternal: {fileID: 1940887869}
+--- !u!1 &1940887871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 7776509ade87639459ba6e63f5519fe8,
+    type: 3}
+  m_PrefabInternal: {fileID: 1940887869}
+--- !u!65 &1940887872
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1940887871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5, y: 2, z: 4.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1962147873
 GameObject:
   m_ObjectHideFlags: 0
@@ -31140,8 +31498,8 @@ GameObject:
   m_Name: Sten (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1985879982
 Transform:
@@ -31610,6 +31968,14 @@ Prefab:
     - target: {fileID: 400000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
@@ -32287,8 +32653,8 @@ GameObject:
   m_Name: Sten (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2097936780
 Transform:
@@ -32416,6 +32782,14 @@ Prefab:
     - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_Name
       value: Sten
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
