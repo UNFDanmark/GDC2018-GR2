@@ -16,4 +16,9 @@ public class LevelInfoScript : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void DDstroy()
+    {
+        Destroy(gameObject);
+    }
 }
