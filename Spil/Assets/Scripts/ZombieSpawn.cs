@@ -30,9 +30,9 @@ public class ZombieSpawn : MonoBehaviour {
             level_1++;
 
 
-            if (level_1 != 0) {
-                gameObject.GetComponent<GameCommandsScript>().LevelUp();
-            }
+            //if (level_1 != 0) {
+            //    gameObject.GetComponent<GameCommandsScript>().LevelUp();
+            //}
 
 
             levelText.text = "Level: " + level_1;

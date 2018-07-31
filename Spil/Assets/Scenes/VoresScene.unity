@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43667546, g: 0.48427135, b: 0.5645225, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427147, b: 0.56452364, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -331,14 +331,14 @@ ParticleSystem:
   m_GameObject: {fileID: 42346860}
   serializedVersion: 5
   lengthInSec: 5
-  simulationSpeed: 0.3
+  simulationSpeed: 0.28
   stopAction: 0
   looping: 1
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
-  useRigidbodyForVelocity: 1
+  useRigidbodyForVelocity: 0
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -893,7 +893,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 13
+      scalar: 17
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1096,7 +1096,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 200
+      scalar: 500
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -1768,7 +1768,7 @@ ParticleSystem:
     y:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 23
+      scalar: 26
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -5905,7 +5905,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &436491725
 Transform:
   m_ObjectHideFlags: 0
@@ -5939,7 +5939,7 @@ MonoBehaviour:
   i: 0
   levelText: {fileID: 1936405847}
   zombieText: {fileID: 1377812180}
-  mapSize: 25
+  mapSize: 20
   gitGutLevel: {fileID: 253087402}
 --- !u!1 &448629818
 GameObject:
@@ -8667,15 +8667,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.8
+      value: -24.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.9
+      value: -25.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6ccade9b3c86d8746abfe05744ef7e27, type: 3}
       propertyPath: m_LocalRotation.x
@@ -9952,6 +9952,7 @@ MonoBehaviour:
   range: 0
   timeOfLastRegenHealth: 0
   Level_n: {fileID: 253087401}
+  regnbue: {fileID: 42346860}
   health_regen_sek_player: 2
   vomit_player_regen_sek: 1
 --- !u!65 &1833690953
@@ -11109,7 +11110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2017019533
 Transform:
   m_ObjectHideFlags: 0
