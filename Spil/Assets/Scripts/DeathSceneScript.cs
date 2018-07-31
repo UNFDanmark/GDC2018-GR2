@@ -14,6 +14,7 @@ public class DeathSceneScript : MonoBehaviour {
          
         Levelnr = GameObject.FindWithTag("LevelNummer").GetComponent<LevelInfoScript>();
         Level1Info.text = "Level: " + Levelnr.levelInfo;
+        Levelnr.DDstroy();
 	}
 	
 	// Update is called once per frame

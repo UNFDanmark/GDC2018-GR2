@@ -125,7 +125,7 @@ public class Player : MonoBehaviour {
         
     public void PlayerDamage(int skade)
     {
-        if (health_player > 0)
+        if (health_player > 5)
         {
             health_player = health_player - skade;
             healthText.text = "Health: " + health_player;
