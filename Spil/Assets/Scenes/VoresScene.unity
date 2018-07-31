@@ -5938,12 +5938,11 @@ GameObject:
   m_Component:
   - component: {fileID: 100782759}
   - component: {fileID: 100782758}
-  - component: {fileID: 100782757}
   - component: {fileID: 100782756}
   - component: {fileID: 100782755}
   m_Layer: 0
   m_Name: Sound
-  m_TagString: Sound
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6138,20 +6137,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &100782757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 100782754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efde18ae53e75bc4f8280a9c16936ac0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audiosource: {fileID: 100782758}
-  lvlUp: {fileID: 8300000, guid: a937a486c40944a48a37b74a2527279a, type: 3}
-  zombiesource: {fileID: 100782755}
 --- !u!82 &100782758
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9387,7 +9372,7 @@ GameObject:
   - component: {fileID: 436491727}
   m_Layer: 0
   m_Name: ZombieSpawning
-  m_TagString: Untagged
+  m_TagString: Sound
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9447,9 +9432,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efde18ae53e75bc4f8280a9c16936ac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audiosource: {fileID: 0}
+  audiosource: {fileID: 100782756}
   lvlUp: {fileID: 8300000, guid: a937a486c40944a48a37b74a2527279a, type: 3}
-  zombiesource: {fileID: 0}
+  zombiesource: {fileID: 100782755}
 --- !u!1 &448629818
 GameObject:
   m_ObjectHideFlags: 0
@@ -24992,6 +24977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walk: {fileID: 8300000, guid: c980ca70c31f48c41aed91ccd10a52a2, type: 3}
   audioSource: {fileID: 1833690959}
+  zombiesource: {fileID: 0}
 --- !u!82 &1833690959
 AudioSource:
   m_ObjectHideFlags: 0
@@ -27895,7 +27881,7 @@ MonoBehaviour:
   SpilText: {fileID: 883880374}
   Camera: {fileID: 1445686799}
   StartKnap: {fileID: 839777027}
-  audiosource: {fileID: 0}
+  audiosource: {fileID: 100782758}
   start: {fileID: 8300000, guid: 6a144a70822743f409cdd6d5e591383f, type: 3}
   lvlUp: {fileID: 8300000, guid: a937a486c40944a48a37b74a2527279a, type: 3}
 --- !u!1 &2024799547

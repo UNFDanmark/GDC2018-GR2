@@ -75,7 +75,7 @@ public class Player : MonoBehaviour {
 
         }
 
-        animator.Play("Walk");
+
 
         
 
