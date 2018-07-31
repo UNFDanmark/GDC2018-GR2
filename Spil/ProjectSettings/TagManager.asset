@@ -7,6 +7,9 @@ TagManager:
   - zombie
   - Vomit
   - LevelNummer
+  - ExtremeRotation
+  - FuldVomit
+  - FuldHealth
   layers:
   - Default
   - TransparentFX

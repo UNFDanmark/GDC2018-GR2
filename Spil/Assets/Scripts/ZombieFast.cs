@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Zombier : MonoBehaviour
+public class ZombieFast : MonoBehaviour
 {
 
     public float speed_zombie = 0.5f;
@@ -33,8 +33,7 @@ public class Zombier : MonoBehaviour
     {
         player = GameObject.FindObjectOfType<Player>();
         zombieSpawn = GameObject.FindObjectOfType<ZombieSpawn>();
-        speed_zombie = Random.Range(2, 3); 
-
+        speed_zombie = Random.Range(6, 7);
     }
 
     // Update is called once per frame
@@ -46,7 +45,8 @@ public class Zombier : MonoBehaviour
         myAgent.SetDestination(player.transform.position);
     }
 
-    public void Move_Z(Vector3 a) {
+    public void Move_Z(Vector3 a)
+    {
 
         //zombiebody.velocity = a + (enhed_vector * speed_zombie);
         //Mulighed for at gøre farten uafhængig af afstanden til player.
@@ -60,9 +60,10 @@ public class Zombier : MonoBehaviour
         if (trigger.CompareTag("Vomit") && zombieHealth > 0)
         {
             zombieHealth--;
-        } else
+        }
+        else
         {
-            
+
 
 
             if (Time.time - timeOfLastDestroy >= 1)
@@ -92,7 +93,7 @@ public class Zombier : MonoBehaviour
     public void Hidkalde()
     {
         Instantiate(kureret, transform.position, transform.rotation);
-        
+
 
     }
 
