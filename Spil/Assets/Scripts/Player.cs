@@ -14,6 +14,8 @@ public class Player : MonoBehaviour {
     public int lvl_player = 1;
     public Rigidbody player;
     public Text VomitRange;
+    public float PowerUp_activate;
+    public float PowerUp_tid = 5;
 
     public GameObject  Vomit;
     public Vomit Vmit;
@@ -65,6 +67,11 @@ public class Player : MonoBehaviour {
             timeOfLastRegenHealth = Time.time;
             healthText.text = "Health: " + health_player;
                 }
+        if (Time.time - PowerUp_activate >= PowerUp_tid)
+        {
+            rotationSpeed_player = 200;
+
+        }
 
         
 
@@ -140,6 +147,7 @@ public class Player : MonoBehaviour {
         if (trigger.CompareTag("ExtremeRotation"))
         {
             rotationSpeed_player = 1000;
+            PowerUp_activate = Time.time;
 
         }
 
