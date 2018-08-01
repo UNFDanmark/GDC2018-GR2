@@ -14,7 +14,7 @@ public class Start2 : MonoBehaviour {
 	void Update () {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("Start2");
+            SceneManager.LoadScene("Start3");
         }
     }
 }
